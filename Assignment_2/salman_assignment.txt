@@ -1,0 +1,12 @@
+2> timer:tc(salman,find_square_multiples,[3,30000]).
+{145,48}
+3> timer:tc(salman,find_square_multiples,[4,30000]).
+{1399,242}
+4> timer:tc(salman,find_square_multiples,[5,30000]).
+{4166,844}
+5> timer:tc(salman,find_square_multiples,[6,30000]).
+{151522,22020}
+6> timer:tc(salman,find_square_multiples,[7,300000]).
+{1809787,217070}
+
+
